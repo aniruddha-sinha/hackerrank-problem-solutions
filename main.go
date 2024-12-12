@@ -31,4 +31,9 @@ func main() {
 	staircaseproblem.StaircaseProblem(int32(6))
 	log.Println("Min Max Sum")
 	minmaxsum.MinMaxSum([]int32{254961783, 604179258, 462517083, 967304281, 860273491})
+	log.Println("Min Max Sum second test case")
+	minmaxsum.MinMaxSum([]int32{1, 2, 3, 4, 5})
+	//942381765 627450398 954173620 583762094 236817490
+	log.Println("Min Max Sum third test case")
+	minmaxsum.MinMaxSum([]int32{942381765, 627450398, 954173620, 583762094, 236817490})
 }
