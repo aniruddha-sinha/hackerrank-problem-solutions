@@ -3,16 +3,16 @@ package main
 import (
 	"log"
 
-	averybigsum "github.com/aniruddha-sinha/hackerrank/aVeryBigSum"
-	birthdaycakecandles "github.com/aniruddha-sinha/hackerrank/birthdayCakeCandles"
-	comparethetriplets "github.com/aniruddha-sinha/hackerrank/compareTheTriplets"
-	diagonaldifference "github.com/aniruddha-sinha/hackerrank/diagonalDifference"
-	minmaxsum "github.com/aniruddha-sinha/hackerrank/minMaxSum"
-	plusminus "github.com/aniruddha-sinha/hackerrank/plusMinus"
-	simplearraysum "github.com/aniruddha-sinha/hackerrank/simpleArraySum"
-	solvemefirst "github.com/aniruddha-sinha/hackerrank/solveMeFirst"
-	staircaseproblem "github.com/aniruddha-sinha/hackerrank/staircaseProblem"
-	timeconversion "github.com/aniruddha-sinha/hackerrank/timeConversion"
+	averybigsum "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/aVeryBigSum"
+	birthdaycakecandles "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/birthdayCakeCandles"
+	comparethetriplets "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/compareTheTriplets"
+	diagonaldifference "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/diagonalDifference"
+	minmaxsum "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/minMaxSum"
+	plusminus "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/plusMinus"
+	simplearraysum "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/simpleArraySum"
+	solvemefirst "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/solveMeFirst"
+	staircaseproblem "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/staircaseProblem"
+	timeconversion "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/timeConversion"
 )
 
 func main() {
