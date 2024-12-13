@@ -39,7 +39,7 @@ func getMax(slice []int64) int64 {
 
 func MinMaxSum(arr []int32) {
 	var resultantSumArrayContainer []int64 = make([]int64, 0)
-	for i, _ := range arr {
+	for i := range arr {
 		resArr := deleteAtIndex(arr, int32(i))
 		resultantSumArrayContainer = append(resultantSumArrayContainer, int64(arrSum(resArr)))
 	}

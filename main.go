@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	gradingstudents "github.com/aniruddha-sinha/hackerrank/algorithms/implementation/gradingStudents"
 	averybigsum "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/aVeryBigSum"
 	birthdaycakecandles "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/birthdayCakeCandles"
 	comparethetriplets "github.com/aniruddha-sinha/hackerrank/algorithms/warmup/compareTheTriplets"
@@ -16,6 +17,8 @@ import (
 )
 
 func main() {
+	log.Println("Warm-up Problems")
+	log.Println("-------------------------------")
 	log.Println("Check the question in the problem folder : <problem>.md")
 	log.Println("Solve Me First Problem")
 	log.Println(solvemefirst.SolveMeFirstHelperFun())
@@ -47,4 +50,9 @@ func main() {
 	log.Println(timeconversion.TimeConversionHelper("12:40:22AM"))
 	log.Println("Time Conversion third test case")
 	log.Println(timeconversion.TimeConversionHelper("06:40:03AM"))
+	log.Println("")
+	log.Println("Implementation Problems in Algorithm")
+	log.Println("-------------------------------")
+	log.Println("Grading students")
+	gradingstudents.GradingStudentsHelper([]int32{73, 67, 38, 33})
 }
